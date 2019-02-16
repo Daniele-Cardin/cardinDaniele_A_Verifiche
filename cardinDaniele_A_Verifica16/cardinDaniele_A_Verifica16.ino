@@ -14,7 +14,7 @@ void setup() {
   pinMode(ledVerde, OUTPUT);
   Serial.begin(9600);
   Serial.println("seriale attivata");
-  
+  randomSeed(analogRead(0));
 }
 
 void loop() {
